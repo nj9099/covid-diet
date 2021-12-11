@@ -38,8 +38,15 @@ The goal is to find the diet which will help to keep you healthy in this COVID-1
 Country vs. Obesity Rate
 Which country has lowest and highest obesity rate?
 
+![Country-by-Obesity](https://user-images.githubusercontent.com/51665593/145691362-4070c141-9d0f-4435-a566-02289c6d1b15.png)
+
+
 Country vs. Undernourished Rate
 Which country has lowest and highest undernourished rate?
+
+
+![Country-by-Undernourished](https://user-images.githubusercontent.com/51665593/145691367-65b1e282-588b-4aa0-b16c-e472035bad3a.png)
+
 
 ## DATA CLEANSING
 ## DATA TRANSFORMATION / DATA SPLITTING
@@ -56,7 +63,13 @@ Which country has lowest and highest undernourished rate?
 ## VISUALIZATIONS
 
 ### SCATTER PLOT WITH REGRESSION LINE -- OBESITY RATE
+
+![COVID-by-Obesity](https://user-images.githubusercontent.com/51665593/145691378-6d021bb5-a8ca-4012-ac23-67ca7c7d85b0.png)
+
 ### SCATTER PLOT WITH REGRESSION LINE -- UNDERNOURISHED RATE
+
+![COVID-by-Undernourished](https://user-images.githubusercontent.com/51665593/145691382-1a52ae55-1760-45ae-89e0-904b1f1c9586.png)
+
 
 # CASE II: DIET VARIABLES by OBESITY RATE, and UNDERNOURISHED RATE
 
@@ -65,16 +78,33 @@ Which country has lowest and highest undernourished rate?
 ### SPEARMAN'S CORRELATION TEST
 ### HEATMAP
 > Obesity Rate
+
+![Heatmap-Obesity-by-Diet](https://user-images.githubusercontent.com/51665593/145691395-c12c371e-a1ba-4e3f-875c-68277c1bd7b4.png)
+
+
+
 > Undernourished Rate
+
+
+![Heatmap-Undernourished-by-Diet](https://user-images.githubusercontent.com/51665593/145691397-9ed95d8e-74a0-4316-a1c5-44cc9b79ca2b.png)
+
 
 ## VISUALIZATIONS
 
+![Diet-by-Obesity](https://user-images.githubusercontent.com/51665593/145691407-581f7d2a-e540-405a-8f9d-059037fff88d.png)
+
+![Diet-by-Undernourished](https://user-images.githubusercontent.com/51665593/145691409-b3a75971-d5eb-4994-b19d-246a9b5ddaa4.png)
 
 
 # SEMANTIC INFERENCES
 
-Fetch from the presentation.
+In countries with fewer confirmed cases, when both the obesity and undernutrition rates are low, Therefore, it is important to have a healthy diet plan. For example, vegetable products, cereals, etc.  
+Avoid eating meat and drinking alcoholic beverages to avoid becoming susceptible to COVID.  
+The lower the mortality rate, the healthier the diet.  
 
+
+
+--------------------------------------------------------------------------------------------------------------------------
 
 ```markdown
 Syntax highlighted code block
