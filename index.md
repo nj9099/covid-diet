@@ -1,75 +1,58 @@
 ## Covid - 19 and World Nations' Diet Plans
 
-### Introduction
-Covid-19 pandemic has brought the world to a state of uncertanity and confusion. The impacts of the covid has affected the health, social and economic well-being of people in all the countries around the world. The first covid case ever was reported in the China on December 2019, since then the pandemic has never left face of earth and continues to be a threat worldwide causing havoc in the lives of millions. 
+## Objective
+
+The project is intended to find the suitable diet pattern that helps to minimize the chances of getting the covid disease. 
 
 ### Exploring Dataset
-The dataset for the project was downloaded from  the Kaggle(include the HTTP link here) website. The dataset records all the importand diet components or food variables of a counrtry along with its corresponding covid related information such as 'recovered', 'deaths', 'active' and 'total population'. The dataset records the value of diet variables as percentage intake of that particular food item. For example if a value corresponds to 'Animal Fats' says 0.19, it means that the proportion of animal fat in the food consumed by that country is 19%. The dataset records the values for 170 countries. The data regarding the covid was collected from the Johns Hopkins Center for Systems Science and Engineering CSSE website.
+The dataset for the project was downloaded from the Kaggle(include the HTTP link here) website. The dataset records all the importand diet components or food variables of a counrtry along with its corresponding covid related information such as 'recovered', 'deaths', 'active' and 'total population'. The dataset records the value of diet variables as percentage intake of that particular food item. For example if a value corresponds to 'Animal Fats' says 0.19, it means that the proportion of animal fat in the food consumed by that country is 19%. The dataset records the values for 170 countries. The data regarding the covid was collected from the Johns Hopkins Center for Systems Science and Engineering CSSE website.
+Additionaly, the dataset also records the values of undernourishment rates and obesity rates of each of the countries in the dataset.
 
-### Data Pre-processing
-The dataset recorded the values of total confirmed cases, recovered cases, active cases and total deaths as percentage of the total population. In order to make meaningful statistical analysis the variables need to be converted to the real number format, which was done by multiplying the values with the corresponding population data. Moreover, the dataset also contains inconsistent data which got removed by eliminating those rows that contained them. 
+### Data Pre-Processing
+The dataset recorded the values of total confirmed cases, recovered cases, active cases and total deaths as percentage of the total population. In order to make meaningful statistical analysis the variables need to be converted to the real number format, which was done by multiplying the values with the corresponding population data. Moreover, the dataset also contained inconsistent data points which got removed by eliminating those rows that contained those points. 
 
-### Visualizations
-Visulaizations on the dataset was mainly done for exploring the various attributes in the dataset and to make visual analysis based on them. 
+## Exploratory Data Analysis
 
-![pic1](https://user-images.githubusercontent.com/25582927/145689209-ca440350-f45f-4a20-8a79-93785a0e46b3.png)
-
-In the above scatter plot, the points represents the reationship between the obesity rate and the population of each countries. Each points are color encoded to visualize if the it represents confirmed, death or recovery rates. 
-
-You can use the [editor on GitHub](https://github.com/noelgith/covid-diet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-
-
-# GOALS
-
-The goal is to find the diet which will help to keep you healthy in this COVID-19 pandemic.
-
-# STEPS
-
-## EXPLORATORY DATA ANALYSIS
-
-### BASIC VISUALIZATIONS
 Country vs. Obesity Rate
-Which country has lowest and highest obesity rate?
 
-![Country-by-Obesity](https://user-images.githubusercontent.com/51665593/145691362-4070c141-9d0f-4435-a566-02289c6d1b15.png)
+![Picture7](https://user-images.githubusercontent.com/25582927/145690043-9701ccd4-ae1c-4da9-a301-e892940ea86c.png)
 
+The above horizontal bar plot visualization helps to understand the obesity rates of the various countries. The country with the highest obesity rate is USA while the country with the lowest obesity rate is Vietnam.
 
 Country vs. Undernourished Rate
-Which country has lowest and highest undernourished rate?
 
 
-![Country-by-Undernourished](https://user-images.githubusercontent.com/51665593/145691367-65b1e282-588b-4aa0-b16c-e472035bad3a.png)
+
+![Picture8](https://user-images.githubusercontent.com/25582927/145690389-be1f5d54-77a2-4137-b3f9-f271bad9375a.png)
+
+From the graph it can be clearly understood that the country with the most undernourishment rate is Zimbabwe followed by Zambia and Yemen. While, countries like USA, UK, Sweden, Switzerland, Spain etc have the least undernourishment rates. 
 
 
-## DATA CLEANSING
-## DATA TRANSFORMATION / DATA SPLITTING
-## INSIGHTS & VISUALIZATIONS
+## CASE I: COVID-19 VARIABLES by OBESITY RATE, and UNDERNOURISHED RATE
+The first step in the analysis is to investigate the relationship between obesity rate and undernourished rate with the covid data attributes of every country in the dataset. The following sections presents the various approaches that have been used for analyzing the relationship and the insights obtained.
 
+## Statistical Test
+The following sections discusses the various statistical analysis done on the above mentioned data attributes to find out if there exist any significant correlations.
 
-# CASE I: COVID-19 VARIABLES by OBESITY RATE, and UNDERNOURISHED RATE
+#### T-test
 
-## STATISTICAL TESTS
+The t-test statistical tool from the python statistical package was used to analyze any significant difference in the values of covid data attributes among low and high obese countries.
+The t-tests revealed that there exist significant difference among 'death rates' and 'confirmed rates' among countries with high obesity and that with low obesity. 
+The output obtained from the t-test is displyed below.
 
-### T-test
-### One way ANOVA
+![image](https://user-images.githubusercontent.com/25582927/145691372-4ab6cd63-bd74-4be0-9fa9-ad8181994019.png)
+
+#### One way ANOVA
+
+The one way anova test included in the stat package in the sklearn library was used to analyze the differnce between the covid attributes among the countries with low, mid and high under-nourishment. The resullts obtained after executing the one-way test is shown below.
+
+![image](https://user-images.githubusercontent.com/25582927/145691540-533b7d2e-3a82-4d30-873c-3f54adb432a1.png)
+
 
 ## VISUALIZATIONS
 
 ### SCATTER PLOT WITH REGRESSION LINE -- OBESITY RATE
-
-![COVID-by-Obesity](https://user-images.githubusercontent.com/51665593/145691378-6d021bb5-a8ca-4012-ac23-67ca7c7d85b0.png)
-
 ### SCATTER PLOT WITH REGRESSION LINE -- UNDERNOURISHED RATE
-
-![COVID-by-Undernourished](https://user-images.githubusercontent.com/51665593/145691382-1a52ae55-1760-45ae-89e0-904b1f1c9586.png)
-
 
 # CASE II: DIET VARIABLES by OBESITY RATE, and UNDERNOURISHED RATE
 
@@ -78,33 +61,16 @@ Which country has lowest and highest undernourished rate?
 ### SPEARMAN'S CORRELATION TEST
 ### HEATMAP
 > Obesity Rate
-
-![Heatmap-Obesity-by-Diet](https://user-images.githubusercontent.com/51665593/145691395-c12c371e-a1ba-4e3f-875c-68277c1bd7b4.png)
-
-
-
 > Undernourished Rate
-
-
-![Heatmap-Undernourished-by-Diet](https://user-images.githubusercontent.com/51665593/145691397-9ed95d8e-74a0-4316-a1c5-44cc9b79ca2b.png)
-
 
 ## VISUALIZATIONS
 
-![Diet-by-Obesity](https://user-images.githubusercontent.com/51665593/145691407-581f7d2a-e540-405a-8f9d-059037fff88d.png)
-
-![Diet-by-Undernourished](https://user-images.githubusercontent.com/51665593/145691409-b3a75971-d5eb-4994-b19d-246a9b5ddaa4.png)
 
 
 # SEMANTIC INFERENCES
 
-In countries with fewer confirmed cases, when both the obesity and undernutrition rates are low, Therefore, it is important to have a healthy diet plan. For example, vegetable products, cereals, etc.  
-Avoid eating meat and drinking alcoholic beverages to avoid becoming susceptible to COVID.  
-The lower the mortality rate, the healthier the diet.  
+Fetch from the presentation.
 
-
-
---------------------------------------------------------------------------------------------------------------------------
 
 ```markdown
 Syntax highlighted code block
