@@ -24,6 +24,58 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+
+
+# GOALS
+
+The goal is to find the diet which will help to keep you healthy in this COVID-19 pandemic.
+
+# STEPS
+
+## EXPLORATORY DATA ANALYSIS
+
+### BASIC VISUALIZATIONS
+Country vs. Obesity Rate
+Which country has lowest and highest obesity rate?
+
+Country vs. Undernourished Rate
+Which country has lowest and highest undernourished rate?
+
+## DATA CLEANSING
+## DATA TRANSFORMATION / DATA SPLITTING
+## INSIGHTS & VISUALIZATIONS
+
+
+# CASE I: COVID-19 VARIABLES by OBESITY RATE, and UNDERNOURISHED RATE
+
+## STATISTICAL TESTS
+
+### T-test
+### One way ANOVA
+
+## VISUALIZATIONS
+
+### SCATTER PLOT WITH REGRESSION LINE -- OBESITY RATE
+### SCATTER PLOT WITH REGRESSION LINE -- UNDERNOURISHED RATE
+
+# CASE II: DIET VARIABLES by OBESITY RATE, and UNDERNOURISHED RATE
+
+## STATISTICAL TEST
+
+### SPEARMAN'S CORRELATION TEST
+### HEATMAP
+> Obesity Rate
+> Undernourished Rate
+
+## VISUALIZATIONS
+
+
+
+# SEMANTIC INFERENCES
+
+Fetch from the presentation.
+
+
 ```markdown
 Syntax highlighted code block
 
