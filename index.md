@@ -21,8 +21,6 @@ The above horizontal bar plot visualization helps to understand the obesity rate
 
 Country vs. Undernourished Rate
 
-
-
 ![Picture8](https://user-images.githubusercontent.com/25582927/145690389-be1f5d54-77a2-4137-b3f9-f271bad9375a.png)
 
 From the graph it can be clearly understood that the country with the most undernourishment rate is Zimbabwe followed by Zambia and Yemen. While, countries like USA, UK, Sweden, Switzerland, Spain etc have the least undernourishment rates. 
@@ -52,7 +50,15 @@ The one way anova test included in the stat package in the sklearn library was u
 ## VISUALIZATIONS
 
 ### SCATTER PLOT WITH REGRESSION LINE -- OBESITY RATE
+
+![COVID-by-Obesity](https://user-images.githubusercontent.com/51665593/145691763-faeecf52-a34f-4077-8da0-6fb8128f9aaf.png)
+
+
 ### SCATTER PLOT WITH REGRESSION LINE -- UNDERNOURISHED RATE
+
+![COVID-by-Undernourished](https://user-images.githubusercontent.com/51665593/145691767-ce7d5600-1caf-4bff-8476-708f14e7a71b.png)
+
+
 
 # CASE II: DIET VARIABLES by OBESITY RATE, and UNDERNOURISHED RATE
 
@@ -61,15 +67,27 @@ The one way anova test included in the stat package in the sklearn library was u
 ### SPEARMAN'S CORRELATION TEST
 ### HEATMAP
 > Obesity Rate
+
+![Heatmap-Obesity-by-Diet](https://user-images.githubusercontent.com/51665593/145691777-643151d5-1bc7-4cd1-a9a0-49173547eaa6.png)
+
+
 > Undernourished Rate
 
+
+![Heatmap-Undernourished-by-Diet](https://user-images.githubusercontent.com/51665593/145691783-bc069644-7c8c-47a4-97e4-6da24c2dc396.png)
+
+
 ## VISUALIZATIONS
+
+![Diet-by-Obesity](https://user-images.githubusercontent.com/51665593/145691786-472ca03e-f6bd-4428-9cf6-f855052327e9.png)
+
+![Diet-by-Undernourished](https://user-images.githubusercontent.com/51665593/145691791-e8766bbd-cfe6-443b-88eb-ac2b59a8ca2e.png)
 
 
 
 # SEMANTIC INFERENCES
 
-Fetch from the presentation.
+In countries with fewer confirmed cases, when both the obesity and undernutrition rates are low, Therefore, it is important to have a healthy diet plan. For example, vegetable products, cereals, etc.  
 
 
 ```markdown
@@ -89,13 +107,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](/assets/images/pic1.png)
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/noelgith/covid-diet/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
