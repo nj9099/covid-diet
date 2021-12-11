@@ -12,6 +12,9 @@ The dataset recorded the values of total confirmed cases, recovered cases, activ
 ### Visualizations
 Visulaizations on the dataset was mainly done for exploring the various attributes in the dataset and to make visual analysis based on them. 
 
+![pic1](https://user-images.githubusercontent.com/25582927/145689209-ca440350-f45f-4a20-8a79-93785a0e46b3.png)
+
+In the above scatter plot, the points represents the reationship between the obesity rate and the population of each countries. Each points are color encoded to visualize if the it represents confirmed, death or recovery rates. 
 
 You can use the [editor on GitHub](https://github.com/noelgith/covid-diet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -36,7 +39,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](/assets/images/pic1.png)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
