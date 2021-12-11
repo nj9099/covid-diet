@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## Covid - 19 and World Nations' Diet Plans
+
+### Introduction
+Covid-19 pandemic has brought the world to a state of uncertanity and confusion. The impacts of the covid has affected the health, social and economic well-being of people in all the countries around the world. The first covid case ever was reported in the China on December 2019, since then the pandemic has never left face of earth and continues to be a threat worldwide causing havoc in the lives of millions. 
+
+### Exploring Dataset
+The dataset for the project was downloaded from  the Kaggle(include the HTTP link here) website. The dataset records all the importand diet components or food variables of a counrtry along with its corresponding covid related information such as 'recovered', 'deaths', 'active' and 'total population'. The dataset records the value of diet variables as percentage intake of that particular food item. For example if a value corresponds to 'Animal Fats' says 0.19, it means that the proportion of animal fat in the food consumed by that country is 19%. Also the datas
 
 You can use the [editor on GitHub](https://github.com/noelgith/covid-diet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
