@@ -4,7 +4,14 @@
 Covid-19 pandemic has brought the world to a state of uncertanity and confusion. The impacts of the covid has affected the health, social and economic well-being of people in all the countries around the world. The first covid case ever was reported in the China on December 2019, since then the pandemic has never left face of earth and continues to be a threat worldwide causing havoc in the lives of millions. 
 
 ### Exploring Dataset
-The dataset for the project was downloaded from  the Kaggle(include the HTTP link here) website. The dataset records all the importand diet components or food variables of a counrtry along with its corresponding covid related information such as 'recovered', 'deaths', 'active' and 'total population'. The dataset records the value of diet variables as percentage intake of that particular food item. For example if a value corresponds to 'Animal Fats' says 0.19, it means that the proportion of animal fat in the food consumed by that country is 19%. Also the datas
+The dataset for the project was downloaded from  the Kaggle(include the HTTP link here) website. The dataset records all the importand diet components or food variables of a counrtry along with its corresponding covid related information such as 'recovered', 'deaths', 'active' and 'total population'. The dataset records the value of diet variables as percentage intake of that particular food item. For example if a value corresponds to 'Animal Fats' says 0.19, it means that the proportion of animal fat in the food consumed by that country is 19%. The dataset records the values for 170 countries. The data regarding the covid was collected from the Johns Hopkins Center for Systems Science and Engineering CSSE website.
+
+### Data Pre-processing
+The dataset recorded the values of total confirmed cases, recovered cases, active cases and total deaths as percentage of the total population. In order to make meaningful statistical analysis the variables need to be converted to the real number format, which was done by multiplying the values with the corresponding population data. Moreover, the dataset also contains inconsistent data which got removed by eliminating those rows that contained them. 
+
+### Visualizations
+Visulaizations on the dataset was mainly done for exploring the various attributes in the dataset and to make visual analysis based on them. 
+
 
 You can use the [editor on GitHub](https://github.com/noelgith/covid-diet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
