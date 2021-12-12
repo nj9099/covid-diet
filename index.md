@@ -2,7 +2,6 @@
 
 ## INTRODUCTION
 
-
 Over the last few months, we've seen doctors, nurses, paramedics, and thousands of other medical personnel risk their lives to save infected people. And, as the fight against COVID-19 continues, we should all consider what we can do to aid. What can we do to safeguard our loved ones, those who have made the ultimate sacrifice for us, and ourselves against this pandemic?  
 
 "What do we know about non-pharmaceutical interventions?"[5] asks the CORD-19 Open Research Dataset Challenge Task Question.  
@@ -13,6 +12,7 @@ The USDA's Center for Nutrition Policy and Promotion suggests following a basic 
 
 The dataset used is a combination of data from various types of food, worldwide population obesity and undernutrition rates, and global COVID-19 case counts from throughout the world in order to understand more about how a healthy eating style might assist combat the CoronaVirus. We can also use the dataset to collect data on diet habits in nations with lower COVID infection rates and alter our own diet accordingly.  
 
+![WhatsApp Image 2021-12-11 at 11 14 22 PM](https://user-images.githubusercontent.com/51665593/145700215-22c3bfaa-a93d-45e3-8929-b9bf4c7a1bde.jpeg)
 
 ## EXPLORATORY DATA ANALYSIS
 The dataset recorded the values of total confirmed cases, recovered cases, active cases and total deaths as percentage of the total population. In order to make meaningful statistical analysis the variables need to be converted to the real number format, which was done by multiplying the values with the corresponding population data. Moreover, the dataset also contained inconsistent data points which got removed by eliminating those rows that contained those points.  
@@ -41,13 +41,21 @@ The t-test statistical tool from the python statistical package was used to anal
 The t-tests revealed that there exist significant difference among 'death rates' and 'confirmed rates' among countries with high obesity and that with low obesity. 
 The output obtained from the t-test is displyed below.
 
-![image](https://user-images.githubusercontent.com/25582927/145691372-4ab6cd63-bd74-4be0-9fa9-ad8181994019.png)
+Variable | p-value | significance  
+| :---: | :---: | :---: |  
+Obesity/Death | 0.01 | <0.05: significance  
+Obesity/Recovered | 0.21 | >0.05: no significance  
+Obesity/Confirmed | 0.046 | <0.05: significance  
 
 #### One way ANOVA
 
-The one way anova test included in the stat package in the sklearn library was used to analyze the differnce between the covid attributes among the countries with low, mid and high under-nourishment. The resullts obtained after executing the one-way test is shown below.
+The one way anova test included in the stat package in the sklearn library was used to analyze the differnce between the covid attributes among the countries with low, mid and high under-nourishment. The resullts obtained after executing the one-way test is shown below.  
 
-![image](https://user-images.githubusercontent.com/25582927/145691540-533b7d2e-3a82-4d30-873c-3f54adb432a1.png)
+Variable | p-value | significance  
+| :---: | :---: | :---: |  
+Undernourished/Death | 0.05 | >0.05: no significance  
+Undernourished/Recovered | 0.12 | >0.05: no significance  
+Undernourished/Confirmed | 0.31 | >0.05: no significance  
 
 
 ### SCATTER PLOT WITH REGRESSION LINE -- OBESITY RATE
@@ -95,23 +103,3 @@ In countries with fewer confirmed cases, when both the obesity and undernutritio
 * Coronavirus disease (COVID-19) advice for the public. World Health Organization; 2020. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public  
 * Cases in the U.S Centers for Disease Control and Prevention. 2020. https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html  
 * COVID-19 Open Research Dataset Challenge (CORD-19). https://kaggle.com/allen-institute-for-ai/CORD-19-research-challenge. Accessed 11 Dec. 2021.  
-
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](/assets/images/pic1.png)
-```
