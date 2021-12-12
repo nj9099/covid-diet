@@ -1,17 +1,21 @@
 # COVID-19 AND WORLD NATIONS' DIET PLANS
 
-## OBJECTIVE
+## INTRODUCTION
 
-The project is intended to find the suitable diet pattern that helps to minimize the chances of getting the covid disease. 
 
-## EXPLORING DATASET
-The dataset for the project was downloaded from the Kaggle(include the HTTP link here) website. The dataset records all the importand diet components or food variables of a counrtry along with its corresponding covid related information such as 'recovered', 'deaths', 'active' and 'total population'. The dataset records the value of diet variables as percentage intake of that particular food item. For example if a value corresponds to 'Animal Fats' says 0.19, it means that the proportion of animal fat in the food consumed by that country is 19%. The dataset records the values for 170 countries. The data regarding the covid was collected from the Johns Hopkins Center for Systems Science and Engineering CSSE website.
-Additionaly, the dataset also records the values of undernourishment rates and obesity rates of each of the countries in the dataset.
+Over the last few months, we've seen doctors, nurses, paramedics, and thousands of other medical personnel risk their lives to save infected people. And, as the fight against COVID-19 continues, we should all consider what we can do to aid. What can we do to safeguard our loved ones, those who have made the ultimate sacrifice for us, and ourselves against this pandemic?  
 
-## DATA-PREPROCESSING
-The dataset recorded the values of total confirmed cases, recovered cases, active cases and total deaths as percentage of the total population. In order to make meaningful statistical analysis the variables need to be converted to the real number format, which was done by multiplying the values with the corresponding population data. Moreover, the dataset also contained inconsistent data points which got removed by eliminating those rows that contained those points. 
+"What do we know about non-pharmaceutical interventions?"[5] asks the CORD-19 Open Research Dataset Challenge Task Question.  
+
+And the simple solution is that we must adjust to a healthy diet in order to safeguard our families and our personal health.  
+
+The USDA's Center for Nutrition Policy and Promotion suggests following a basic daily diet intake guideline: Are we really eating in the healthy eating style indicated by these food divisions and balances? 30% grains, 40% vegetables, 10% fruits, and 20% protein, but are we really eating in the healthy eating style recommended by these food divisions and balances?  
+
+The dataset used is a combination of data from various types of food, worldwide population obesity and undernutrition rates, and global COVID-19 case counts from throughout the world in order to understand more about how a healthy eating style might assist combat the CoronaVirus. We can also use the dataset to collect data on diet habits in nations with lower COVID infection rates and alter our own diet accordingly.  
+
 
 ## EXPLORATORY DATA ANALYSIS
+The dataset recorded the values of total confirmed cases, recovered cases, active cases and total deaths as percentage of the total population. In order to make meaningful statistical analysis the variables need to be converted to the real number format, which was done by multiplying the values with the corresponding population data. Moreover, the dataset also contained inconsistent data points which got removed by eliminating those rows that contained those points.  
 ### Country vs. Obesity Rate
 
 ![Picture7](https://user-images.githubusercontent.com/25582927/145690043-9701ccd4-ae1c-4da9-a301-e892940ea86c.png)
