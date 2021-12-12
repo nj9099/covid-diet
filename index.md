@@ -62,7 +62,7 @@ Undernourished/Confirmed | 0.31 | >0.05: no significance
 
 ![COVID-by-Obesity](https://user-images.githubusercontent.com/51665593/145691763-faeecf52-a34f-4077-8da0-6fb8128f9aaf.png)
 
-In the above scatter plot, the points represents the reationship between the obesity rate and the population of each countries. Each points are color encoded to identify points that represent confirmed, death or recovery rates. From the visualization and the regression lines fitted it can be seen that the rate of confired cases as well as recovered cases increases as the obesity rate increases. Also, from the the graph the points of recovery rate seems to be clustered around the minmal value, but as the obesity of the country crosses the 18 point mark the clustring of death points are found in surplus.
+In the above scatter plot, the points represents the relationship between the obesity rate and the population of each countries. Each points are color encoded to identify points that represent confirmed, death or recovery rates. From the visualization and the regression lines fitted it can be seen that the rate of confirmed cases as well as recovered cases increases as the obesity rate increases. Also, from the the graph the points of recovery rate seems to be clustered around the minmal value, but as the obesity of the country crosses the 18 point mark the clustring of death points are found in surplus.
 
 
 ### SCATTER PLOT WITH REGRESSION LINE -- UNDERNOURISHED RATE
