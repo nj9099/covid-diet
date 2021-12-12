@@ -103,4 +103,4 @@ In countries with fewer confirmed cases, when both the obesity and undernutritio
 
 * Coronavirus disease (COVID-19) advice for the public. World Health Organization; 2020. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public  
 * Cases in the U.S Centers for Disease Control and Prevention. 2020. https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html  
-* COVID-19 Open Research Dataset Challenge (CORD-19). https://kaggle.com/allen-institute-for-ai/CORD-19-research-challenge. Accessed 11 Dec. 2021.  
+* COVID-19 Open Research Dataset Challenge (CORD-19). https://kaggle.com/allen-institute-for-ai/CORD-19-research-challenge. Accessed 11 Dec. 2021.    
