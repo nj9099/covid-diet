@@ -12,7 +12,8 @@ The USDA's Center for Nutrition Policy and Promotion suggests following a basic 
 
 The dataset used is a combination of data from various types of food, worldwide population obesity and undernutrition rates, and global COVID-19 case counts from throughout the world in order to understand more about how a healthy eating style might assist combat the CoronaVirus. We can also use the dataset to collect data on diet habits in nations with lower COVID infection rates and alter our own diet accordingly.  
 
-![WhatsApp Image 2021-12-11 at 11 14 22 PM](https://user-images.githubusercontent.com/51665593/145700215-22c3bfaa-a93d-45e3-8929-b9bf4c7a1bde.jpeg)
+![image](https://user-images.githubusercontent.com/51665593/145700405-37d7a3ec-7a72-41a0-a710-34623bd0b23a.png)
+
 
 ## EXPLORATORY DATA ANALYSIS
 The dataset recorded the values of total confirmed cases, recovered cases, active cases and total deaths as percentage of the total population. In order to make meaningful statistical analysis the variables need to be converted to the real number format, which was done by multiplying the values with the corresponding population data. Moreover, the dataset also contained inconsistent data points which got removed by eliminating those rows that contained those points.  
